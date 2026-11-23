@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vanguard-agents"
+version = "0.1.0"
+description = "Recoverable Python agent workflows with SQLite checkpoints"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
